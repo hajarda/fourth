@@ -1,11 +1,76 @@
-.main-nav {
-  display: none;
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #a7a2c6;
+}
+.header {
+  min-height: 4rem;
+}
+
+.header-name {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  font-size: 1.5rem;
 }
 
 .main-nav-items {
   list-style: none;
+  text-align: center;
 }
 
 .main-nav-item {
   display: inline-block;
+  text-align: center;
+  margin: 0 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-nav-item a {
+  text-decoration: none;
+}
+
+.family a {
+  color: #f526e4;
+}
+
+.music a {
+  color: #b922ad;
+}
+
+.job a {
+  color: #63105c;
+}
+
+.money a {
+  color: #625b6d;
+}
+
+.footer {
+  min-height: 2rem;
+}
+
+.footer-lists {
+  list-style: none;
+}
+
+.footer-list {
+  display: inline-block;
+  text-align: center;
+  margin-right: 1.2rem;
+  font-weight: bold;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 40rem) {
+  .main-nav-item {
+    margin-right: 5rem;
+  }
 }
