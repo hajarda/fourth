@@ -1,4 +1,11 @@
-.main-header-links {
+.main-nav {
+  display: none;
+}
+
+.main-nav-items {
   list-style: none;
+}
+
+.main-nav-item {
   display: inline-block;
 }
